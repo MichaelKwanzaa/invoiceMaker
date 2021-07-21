@@ -1,0 +1,41 @@
+:root{
+    --main: aliceblue;
+    --text: black;
+}
+
+.navbar {
+    background-color: var(--main);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.navbar .logo h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.navbar ul{
+    color: var(--text);
+    cursor:pointer;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+    
+}
+
+.navbar .title h1{
+    color: white;
+}

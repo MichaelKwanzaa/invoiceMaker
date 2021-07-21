@@ -1,0 +1,232 @@
+.invoice-form{
+    flex: 1;
+    height: calc(100vh - 80px);
+}
+
+.invoice-top{
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-evenly;
+}
+
+
+.invoice-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-side h1{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.invoice-side > input, .inputDate > input{
+    padding: 5px 15px;
+    margin: 5px 0px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+.invoice-side > input:focus{
+    outline: none;
+}
+
+.inputDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.inputDate > label{
+    font-size: 13px;
+    font-weight: 200;
+    margin-right: 20px;
+}
+
+.invoice-middle{   
+    display: flex;
+    flex: 1;
+}
+
+.invoice-items{
+    padding: 20px 220px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.item-titles ul{
+    display: flex;
+    list-style: none;
+}
+
+.item-help.one{
+margin-right: 208px;
+}
+
+.item-help.one-tax{
+    margin-right: 208px;
+}
+
+.item-help.two{
+    margin-right: 65px;
+}
+
+.item-help.two-tax{
+    margin-right: 65px;
+}
+
+.item-help.three{
+    margin-right: 34px;
+}
+
+.item-help.three-tax{
+    margin-right: 34px;
+}
+
+.item-help.four-tax{
+    margin-right: 37px;
+}
+
+.item-border{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.item-row > input {
+    padding: 5px 8px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+
+}
+
+.item-row > input:focus{
+    outline: none;
+}
+
+.item.item-description{
+    width: 20vw;
+}
+
+.item.item-rate{
+    width: 6vw;
+}
+
+.item.item-quantity{
+    width: 6vw;
+}
+
+.item.item-amount{
+    width: 6vw;
+}
+
+.item.item-tax{
+    width: 6vw;
+}
+
+.remove-item{
+    width: 100px;
+    padding: 5px 6px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid #888;
+    cursor: pointer;
+    font-size: 12.2px;
+    font-weight: 300;
+}
+
+.add-item{
+    width: 100px;
+    padding: 5px 6px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 11.2px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.add-item:hover{
+    background-color: burlywood;
+    border: none;
+}
+
+.remove-item:hover{
+    background-color: burlywood;
+    border: none;
+}
+
+.tax-choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.tax-choices h2{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.tax-choices > select{
+    padding: 5px 8px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+.tax-choices > select:focus{
+    outline: none;
+}
+
+.invoice-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.invoice-bottom p{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.note-textarea{
+    padding: 5px 15px;
+    border: 1px solid rgb(193, 226, 255);
+    border-radius: 10px;
+}
+
+.note-textarea:focus{
+    outline: none;
+}
+
+.submit-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.submit-button{
+    width: 250px;
+    padding: 15px 25px;
+    font-size: 21px;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: burlywood;
+}
